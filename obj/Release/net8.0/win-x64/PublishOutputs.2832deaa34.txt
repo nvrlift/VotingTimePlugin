@@ -1,0 +1,3 @@
+D:\Code\nvrlift\AssettoServerPublish\net8.0\win-x64\plugins\VotingTimePlugin\VotingTimingPlugin.dll
+D:\Code\nvrlift\AssettoServerPublish\net8.0\win-x64\plugins\VotingTimePlugin\VotingTimingPlugin.deps.json
+D:\Code\nvrlift\AssettoServerPublish\net8.0\win-x64\plugins\VotingTimePlugin\VotingTimingPlugin.runtimeconfig.json
