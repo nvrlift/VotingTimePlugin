@@ -89,6 +89,8 @@ public class VotingTimePlugin : CriticalBackgroundService, IAssettoServerAutosta
         await Task.Delay(_configuration.VotingDurationMilliseconds, stoppingToken);
         _votingOpen = false;
 
+        if (_allVotes.Count == 0) return;
+        
         var winner = (int)_allVotes.Average();
         
         TimeSpan winnerTimeSpan = TimeSpan.FromSeconds(winner);
